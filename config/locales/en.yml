@@ -1,0 +1,80 @@
+en:
+  static_pages:
+    home:
+      title1: "Home"
+      user: "User"
+      email: "Email"
+      role: "Role"
+      decen: "Decentralization"
+      session: "Session"
+      edit: "Edit"
+    about:
+      titles: "About"
+    help:
+      title3: "Help"
+    contact:
+      contact: "Contact"
+      contact1: "Contact the Ruby on Rails Tutorial about the Online Quiz at the"
+      contact2: "Contact page."
+    session: 
+      title5: "Session"
+      date: "Date"
+      sub: "Subject"
+      id: "Id-exam"
+      supervisor: "Supervisor"
+      start: "Start"
+  helpers:
+    application_helper:
+      title2: "Online Quiz by Ruby on Rails"
+  layouts:
+    application:
+      title2: "Online Quiz by Ruby on Rails"
+    header:
+      quiz: "Online Quiz"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      user: "Users"
+      log: "Log out"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      app: "App"
+      by: "by"
+      quiz: "Online Quiz"
+      author: "Le Tien Thanh & Nguyen Xuan Tuan"
+      Languages: "Languages"
+      En: "English"
+      Vi: "Vietnamese"
+  users:
+    create:
+      welcome: "Welcome to the Online Quiz!"
+    show:
+      nouser: "No such user"
+    new:
+      sign: "Signup"
+      page: "This will be a signup page for new users."
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      login: "You have an account!"
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      newuser: "New user?"
+      signup: "Sign up now!"
+      remember: "Remember me on this computer"
+  shared:
+    error_messages:
+      form: "The form contains"
+      err: "error"
