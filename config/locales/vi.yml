@@ -1,0 +1,80 @@
+vi:
+  static_pages:
+    home:
+      title1: "Trang chủ"
+      user: "Tên người dùng"
+      email: "Địa chỉ email"
+      role: "Vai trò"
+      decen: "Phân quyền"
+      session: "Kỳ thi"
+      edit: "Chỉnh sửa"
+    about:
+      titles: "Trợ giúp"
+    help:
+      title3: "Trợ Giúp"
+    contact:
+      contact: "Liên hệ"
+      contact1: "Liên hệ với Ruby on Rails Tutorial về thi trắc nghiệm Online tại"
+      contact2: "Trang liên lạc"
+    session: 
+      title5: "Kỳ thi"
+      date: "Ngày thi"
+      sub: "Môn thi"
+      id: "Mã đề"
+      supervisor: "Ngừơi giám thị"
+      start: "Bắt đầu làm bài"
+  helpers:
+    application_helper:
+      title2: "Thi trắc nghiệm Online hỗ trợ bởi Ruby on Rails"
+  layouts:
+    application:
+      title2: "Thi trắc nghiệm Online hỗ trợ bởi Ruby on Rails"
+    header:
+      quiz: "Thi trắc nghiệm Online"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      user: "Users"
+      log: "Đăng xuất"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+    footer:
+      about: "Thông tin ứng dụng"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      app: "Ứng dụng"
+      by: "thiết kế bởi"
+      quiz: "Thi trắc nghiệm Online"
+      author: "Lê Tiến Thành & Nguyễn Xuân Tuấn"
+      Languages: "Ngôn ngữ"
+      En: "Tiếng Anh"
+      Vi: "Tiếng Việt"
+  users:
+    create:
+      welcome: "Chào mừng bạn đến với Thi trắc nghiệm Online!"
+    show:
+      nouser: "Không có người dùng như vậy"
+    new:
+      sign: "Đăng ký"
+      page: "Đây sẽ là trang đăng ký cho người dùng mới."
+      password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      login: "Đã có tài khoản!"
+  sessions:
+    create:
+      invalid: "Kết hợp email / mật khẩu không hợp lệ"
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      newuser: "Người dùng mới?"
+      signup: "Đăng ký ngay!"
+      remember: "Ghi nhớ đăng nhập trên máy tính này"
+  shared:
+    error_messages:
+      form: "Biểu mẫu có chứa"
+      err: "lỗi"

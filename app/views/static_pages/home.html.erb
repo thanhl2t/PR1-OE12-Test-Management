@@ -1,0 +1,51 @@
+<div class="index_main">
+  <h1> <%= t ".title1" %> </h1>
+	<table class="list_user">
+	  <tr>
+	    <th><%= t ".user" %></th>
+	    <th><%= t ".email" %></th>
+	    <th><%= t ".role" %></th>
+	    <th><%= t ".decen" %></th>
+	  </tr>
+	  <tr>
+	    <td>lê tiến thành</td>
+	    <td>lethanhtb96@gmail.com</td>
+	    <td>admin</td>
+	    <td class="button">
+	    	<button><%= link_to t(".session"), session_path %></button> 
+	    	<button><%= link_to t(".edit"), users_path %></button>	
+	    	<button>Delete</button>
+	    </td>
+	  </tr>
+	  <tr>
+	  	<td>nguyễn xuân tuấn</td>
+	  	<td>yuanoc96@gmail.com</td>
+	    <td>student</td>
+	    <td class="button">
+	    	<button><%= link_to t(".session"), session_path %></button>  
+	    	<button><%= link_to t(".edit"), users_path %></button>	
+	    	<button>Delete</button>
+	    </td>
+	  </tr>
+	  <tr>
+	  	<td>phạm tùng lâm</td>
+	  	<td>lamthong69@gmail.com</td>
+	    <td>student</td>
+	    <td class="button">
+	    	<button><%= link_to t(".session"), session_path %></button> 
+	    	<button><%= link_to t(".edit"), users_path %></button>	
+	    	<button>Delete</button>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>nguyễn tuấn anh</td>
+	    <td>tuanhtb96@gmail.com</td>
+	    <td>student</td>
+	    <td class="button">
+	    	<button><%= link_to t(".session"), session_path %></button>  
+	    	<button><%= link_to t(".edit"), users_path %></button>	
+	    	<button>Delete</button>
+	    </td>
+	  </tr>
+	</table>
+</div>

@@ -1,0 +1,12 @@
+<footer class="footer-navbar">
+  <div class="languages">
+    <%= t ".Languages" %>
+    <%= link_to t(".En"), locale:"en" %>
+    <%= link_to t(".Vi"), locale:"vi" %>
+    <% provide :title, t(".title1") %>
+  </div>
+  <div class="footer-author">
+    <%= t(".app") %> <%= link_to t(".quiz"), Settings._footer.linkf1 %>
+    <%= t(".by") %> <%= link_to t(".author"), Settings._footer.linkf2 %>
+  </div>
+</footer>

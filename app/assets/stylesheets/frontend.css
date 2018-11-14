@@ -1,0 +1,198 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  overflow: hidden;
+  margin: 0;
+}
+
+section {
+  overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  float: right;
+}
+
+li {
+  margin-right: 25px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 280px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  color: #676666;
+}
+
+tr:hover {
+  background-color: #ffffff;
+}
+
+th {
+  height: 50px;
+  width: 20vw;
+  font-size: 20px;
+}
+
+td {
+  height: 25px;
+  width: 20vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+button {
+  width:  80px;
+}
+
+
+
+
+
+.header-navbar {
+  height: 100px;
+  background: linear-gradient(#ff1551, #ff8585);
+}
+
+.header-container {
+  padding-top: 10px;
+}
+
+.header-menu {
+}
+
+#logo {
+  margin-left: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+
+
+
+
+.index_main {
+}
+
+.container {
+  height: 80vh;
+  padding-top: 20px;
+  background: linear-gradient(white, #D3D8E8, white);
+  text-align: -webkit-center;
+}
+
+.row {
+  width: 300px;
+  content: "";
+  display: table;
+  clear: both;
+  text-align: -webkit-center;
+}
+
+.alert-danger {
+  text-align: -webkit-center;
+}
+
+.login_form {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background: linear-gradient(white, #D3D8E8);
+}
+
+.signup_form {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background: linear-gradient(white, #D3D8E8);
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+  
+.input {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+}
+
+.button {
+  text-align: -webkit-center;
+}
+
+
+
+
+
+.footer-navbar {
+  height: 10vh;
+  color: #000000;
+  background: #ffffff;
+}
+
+.languages {
+  height: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-author {
+  height: 20px; 
+  padding-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
