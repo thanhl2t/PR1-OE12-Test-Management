@@ -1,0 +1,61 @@
+en:
+  user_controller:
+    success: "Sign Up Success"
+    failed: "Registration failed"
+    nouser: "No such user"
+  layouts:
+    application:
+      title: "App Quiz Test"
+    header:
+      quiz: "Online Quiz"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      user: "Users"
+      log: "Log out"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      about: "About"
+      contact: "Contact"
+    footer:
+      Languages: "Languages"
+      En: "English"
+      Vi: "Vietnamese"
+      author: "Nguyen Xuan Tuan & Le Tien Thanh"
+      password: "Password"
+  user:
+    new:
+      sign_up: "Sign Up"
+      enter_email: "Enter your Email"
+      enter_username: "Enter your Username"
+      enter_password: "Enter your Password"
+      confirm: "Confirm your Password"
+      create: "Register"
+      login: "Login"
+      olduser: "There are already accounts"
+  session:
+    new:
+      login: "Log in"
+      form: "Login Form"
+      admin: "Admin Login"
+      user: "Users"
+      password: "Password"
+      forgot: "Forgot password ?"
+      newuser: "New user?"
+      signup: "Signup"
+    user:
+      enter_email: "Enter your Email"
+      enter_username: "Enter your Username"
+      enter_password: "Enter your Password"
+      confirm: "Confirm your Password"
+      student: "Student"
+      your_email: "Your Email"
+      username: "Username"
+      password: "Password"
+      login: "Login"
+    create:
+      invalid: "Invalid!"
+  shared:
+    error_message: "Error Message"
+    err: "error"
