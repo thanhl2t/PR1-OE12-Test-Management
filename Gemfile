@@ -15,6 +15,11 @@ gem "rails-ujs"
 gem "turbolinks"
 gem "jbuilder"
 gem "bootsnap"
+gem "bcrypt-ruby"
+gem "faker"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
+gem "i18n-js"
 
 group :development, :test do
   gem "pry-rails"

@@ -1,2 +1,2 @@
-class Session < ApplicationRecord
+class Sessions < ApplicationRecord
 end
