@@ -15,6 +15,7 @@ gem "rails-ujs"
 gem "turbolinks"
 gem "jbuilder"
 gem "bootsnap"
+gem "bcrypt-ruby"
 
 group :development, :test do
   gem "pry-rails"
