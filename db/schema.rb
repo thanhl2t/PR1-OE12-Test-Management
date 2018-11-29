@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181116172926) do
+ActiveRecord::Schema.define(version: 20181210162922) do
 
   create_table "answers", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "answer"
@@ -19,10 +19,18 @@ ActiveRecord::Schema.define(version: 20181116172926) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "bubbles", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "exams", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "code"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "subject"
+    t.string "exam_name"
+    t.string "teacher"
   end
 
   create_table "question_exams", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
