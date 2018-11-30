@@ -4843,3 +4843,97 @@ Processing by SessionController#create as HTML
 Completed 200 OK in 51ms (Views: 32.9ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/login" for 127.0.0.1 at 2018-11-30 08:39:40 +0700
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 391ms (Views: 378.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-30 08:39:43 +0700
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (12.2ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 93ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2018-11-30 08:39:45 +0700
+Processing by UserController#new as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.7ms)
+  Rendered user/new.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 146ms (Views: 98.5ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/signup?locale=en" for 127.0.0.1 at 2018-11-30 08:39:58 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ayfcp0Cc3kcMob3GoYTCdK+lJplIcJB/+QUjLZ+0KUZdBFhls2nSqx4kck/+NCJ4Qx8JWib1DKjQg8xgDq/Jhw==", "user"=>{"user_name"=>"Nguyễn Xuân Tuấn", "email"=>"Yuan69@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register", "locale"=>"en"}
+Unpermitted parameter: :password_confirmation
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'Yuan69@gmail.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (2.2ms)
+  Rendered user/new.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 76ms (Views: 56.8ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/signup?locale=en" for 127.0.0.1 at 2018-11-30 08:40:17 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l14LGWaudAB1Rq9zuZRCPYkURbyUHaf/Wp5b/WWtuzmXQoZ++2BXUe5TGRT2a37RbXaW7RNFCU2R+zV/M/bvKA==", "user"=>{"user_name"=>"ABC", "email"=>"Yuan69@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register", "locale"=>"en"}
+Unpermitted parameter: :password_confirmation
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'Yuan69@gmail.com' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (2.1ms)
+  Rendered user/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 49ms (Views: 36.3ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/signup?locale=en" for 127.0.0.1 at 2018-11-30 08:40:35 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dl/JS3Dv8V5OgY+gHood7D6CxjoiwocT6fk1Ywd/kHAOQ0Qs7SHSD9WUOcdRdSEA2uAVa6WaKaEinFvhUSTEYQ==", "user"=>{"user_name"=>"ABC", "email"=>"Abc69@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register", "locale"=>"en"}
+Unpermitted parameter: :password_confirmation
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = 'Abc69@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `users` (`user_name`, `email`, `password`, `created_at`, `updated_at`) VALUES ('ABC', 'abc69@gmail.com', '123456789', '2018-11-30 01:40:35', '2018-11-30 01:40:35')[0m
+  [1m[35m (102.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 120ms (ActiveRecord: 104.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-11-30 08:40:36 +0700
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 44ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2018-11-30 08:40:52 +0700
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rhIimPWrEFHXV9B5krODMH2a4aRGX5w+9LX7yRFBfhWuDq//aGUzAExCZh7dTL/cmfgy9cEHMow/0JVLRxoqBA==", "session"=>{"email"=>"Abc@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'abc@gmail.com' LIMIT 1[0m
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 1.3ms)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<User:0x00007f988dd7eab0>):
+  
+app/controllers/session_controller.rb:6:in `create'
