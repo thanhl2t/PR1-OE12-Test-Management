@@ -1,9 +1,6 @@
 vi:
   application_controller:
     Quiz_Test_Project: "Dự án bài kiểm tra"
-  user_controller:
-    Sign_Up_Success: "Đăng ký thành công"
-    registration_failed: "Đăng ký thất bại"
   layouts:
     application:
       Quiz_Test_Project: "Thi trắc nghiệm online"
@@ -26,6 +23,9 @@ vi:
       designed: "Thiết kế bởi"
       author: "Nguyễn Xuân Tuấn & Lê Tiến Thành"
   user:
+    create:
+      welcome: "Đăng ký thành công"
+      failed: "Đăng ký thất bại"
     indext:
       All_users: "Tất cả tài khoản người dùng"
     new:
@@ -61,43 +61,44 @@ vi:
       Login: "Đăng nhập"
     create:
       invalid: "invalid"
-    shared:
-      error_message: "Thông báo lỗi"
+  shared:
+    error_messages:
+      form: "Thông báo lỗi"
       err: "lỗi"
-    exam:
-      create_show:
-        Create_Exams: "Create Exams"
-        Test_Name: "Test Name"
-        Test_code: "Test code"
-        Examination: "Examination"
-        Work_Time: "Work Time (minutes)"
-        Exam_invigilator: "Exam invigilator"
-        Select_Supervisor: "Select Supervisor"
-        More_information: "More information"
-        Clear: "Clear"
-        Create: "Create"
-      filter_show:
-        Filter_Test: "Filter Test"
-        Located_In_Between: "Located In Between"
-        Test_code: "Test code"
-        Examination: "Examination"
-        Examination_Status: "Examination Status"
-        pending: "pending"
-        happening: "happening"
-        success: "success"
-        Exam_invigilator: "Exam invigilator"
-        Select_Supervisor: "Select Supervisor"
-        Delete_Filter: "Delete Filter"
-        Filter: "Filter"
-        Exam_List: "Exam List"
-        STT: "STT"
-        Exam_code: "Exam code"
-        Name_of_exam: "Name of exam"
-        Contest: "Contest"
-        Status: "Status"
-        Exam_time: "Exam time"
-        Update: "Update"
-        Test_Name: "Test Name"
-        Examination: "Examination"
-      infor_show:
-      task:
+  exam:
+    create_show:
+      Create_Exams: "Create Exams"
+      Test_Name: "Test Name"
+      Test_code: "Test code"
+      Examination: "Examination"
+      Work_Time: "Work Time (minutes)"
+      Exam_invigilator: "Exam invigilator"
+      Select_Supervisor: "Select Supervisor"
+      More_information: "More information"
+      Clear: "Clear"
+      Create: "Create"
+    filter_show:
+      Filter_Test: "Filter Test"
+      Located_In_Between: "Located In Between"
+      Test_code: "Test code"
+      Examination: "Examination"
+      Examination_Status: "Examination Status"
+      pending: "pending"
+      happening: "happening"
+      success: "success"
+      Exam_invigilator: "Exam invigilator"
+      Select_Supervisor: "Select Supervisor"
+      Delete_Filter: "Delete Filter"
+      Filter: "Filter"
+      Exam_List: "Exam List"
+      STT: "STT"
+      Exam_code: "Exam code"
+      Name_of_exam: "Name of exam"
+      Contest: "Contest"
+      Status: "Status"
+      Exam_time: "Exam time"
+      Update: "Update"
+      Test_Name: "Test Name"
+      Examination: "Examination"
+    infor_show:
+    task:

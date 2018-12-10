@@ -7,16 +7,19 @@ class UserController < ApplicationController
     @user = User.new user_params
     if @user.save
       log_in @user
-      flash[:success] = t ".Sign_Up_Success"
-      redirect_to "/login"
+      flash[:success] = t ".welcome"
+      redirect_to @user
     else
-      flash[:error] = t ".registration_failed"
+      flash[:error] = t ".failed"
       render :new
     end
   end
 
   def show
-    @user = User.find_by params[:id]
+    @user = User.find_by id: params[:id]
+    return if @user
+    flash[:danger] = t ".nouser"
+    redirect_to root_path
   end
 
   def new
