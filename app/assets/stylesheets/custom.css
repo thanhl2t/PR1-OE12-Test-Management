@@ -16,7 +16,7 @@ body{
   background-repeat:no-repeat; 
   background-position:center; 
   background-size:cover; 
- 	font-family: 'Oxygen', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,14 +24,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.title{ 
-	font-size: 50px;
-	font-family: 'Passion One', cursive; 
-	font-weight: 400; 
+  font-size: 50px;
+  font-family: 'Passion One', cursive; 
+  font-weight: 400; 
 }
 
 hr{
-	width: 10%;
-	color: #fff;
+  width: 10%;
+  color: #fff;
 }
 
 ul {
@@ -63,7 +63,7 @@ input::-webkit-input-placeholder{
 }
 
 .header-navbar{
-  height: 100px;
+  height: 50px;
 }
 
 .header-container {
@@ -86,8 +86,7 @@ input::-webkit-input-placeholder{
 }
 
 .container {
-  height: 80vh;
-  padding-top: 20px;
+  height: 85vh;
   text-align: -webkit-center;
 }
 
@@ -95,7 +94,7 @@ input::-webkit-input-placeholder{
 }
 
 .main-login{
- 	background-color: #fff;
+  background-color: #fff;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -105,9 +104,9 @@ input::-webkit-input-placeholder{
 }
 
 .main-center{
- 	margin-top: 30px;
- 	margin: 0 auto;
- 	max-width: 330px;
+  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 330px;
   padding: 40px 40px;
 }
 
@@ -126,6 +125,10 @@ input::-webkit-input-placeholder{
   letter-spacing: 1.5px;
   font-weight: lighter;
   color: #ffffff;
+}
+
+.panel-heading{
+  height: 100px;
 }
 
 .panel h2{ 
@@ -180,6 +183,11 @@ input::-webkit-input-placeholder{
   text-align: left; margin-bottom:30px;
 }
 
+.infomation_exam{
+  text-align: center;
+  margin-top: 25px; 
+}
+
 .botto-text{
   color: #000;
   font-size: 14px;
@@ -198,6 +206,7 @@ input::-webkit-input-placeholder{
 }
 
 .footer-navbar {
+  padding-top: 25px;
   height: 10vh;
   color: #000000;
 }
