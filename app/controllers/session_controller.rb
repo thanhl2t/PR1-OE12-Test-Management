@@ -5,7 +5,7 @@ class SessionController < ApplicationController
     user = User.find_by user_name: params[:session][:user_name].downcase
     if user
       log_in user
-      redirect_to user
+      redirect_to '/exam/filter_show'
     else
       flash.now[:danger] = t ".invalid"
       render :new

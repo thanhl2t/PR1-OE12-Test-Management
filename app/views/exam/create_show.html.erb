@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="panel-heading">
+    <form action="/exam/create_exam" method="post">
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+      <p>Tên kỳ thi</p><input type="text" name="exam_name"><br>
+      <p>Mã kỳ thi</p><input type="text" name="exam_code"><br>
+      <p>Môn thi</p><input type="text" name="exam_subject"><br>
+      <p>Giám thị</p><input type="text" name="teacher"><br><br>
+      <input type="submit">
+    </form> 
+  </div>
+</div>

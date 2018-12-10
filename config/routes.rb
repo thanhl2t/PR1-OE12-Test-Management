@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :bubbles
   get "session/new"
   root "session#new"
   get "/signup", to: "user#new"
@@ -36,4 +35,5 @@ Rails.application.routes.draw do
   end
 
   resources :user
+  resources :exams
 end
